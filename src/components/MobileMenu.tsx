@@ -7,10 +7,12 @@ interface MobileMenuProps {}
 
 export const MobileMenu: React.FC<MobileMenuProps> = () => {
   const [open, setOpen] = useRecoilState(mobileDrawerState)
+  
   return (
     <button
       className="border-[3px] transition-all duration-200 ease-in-out p-3 flex items-center justify-center rounded-full border-[#660000] mobileMenuShadow text-[#F2F3F4] cursor-pointer hover:border-[#203354] hover:scale-110 group focus:border-[#203354] bg-black"
       onClick={() => setOpen(!open)}
+      onKeyDown={() => setOpen(!open)}
     >
       {open ? (
         <AiOutlineClose className="group-hover:scale-105" />

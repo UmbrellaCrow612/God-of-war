@@ -7,7 +7,7 @@ interface HeaderProps {}
 export const Header: React.FC<HeaderProps> = () => {
   return (
     <>
-      <nav className="px-4 h-[85px] sticky top-0 flex items-center justify-between border">
+      <nav className="px-4 h-[85px] sticky top-0 flex items-center justify-between bg-[#1b1b1b]">
         <MobileMenu />
         <Link href="/">
           <a>
