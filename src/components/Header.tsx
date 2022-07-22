@@ -7,7 +7,7 @@ interface HeaderProps {}
 export const Header: React.FC<HeaderProps> = () => {
   return (
     <>
-      <nav className="px-4 h-[85px] sticky top-0 flex items-center justify-between bg-[#1b1b1b] max-w-screen-2xl mx-auto">
+      <nav className="px-4 h-[85px] sticky top-0 flex items-center justify-between bg-[#1b1b1b] max-w-screen-2xl mx-auto shadow-md">
         <Link href="/">
           <a>
             <div className="width-[50px] h-[50px]">

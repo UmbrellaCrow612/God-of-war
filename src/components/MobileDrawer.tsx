@@ -12,12 +12,12 @@ export const MobileDrawer: React.FC<mobileDrawerProps> = () => {
       }`}
     >
       {options.map((option) => (
-        <div
+        <button
           key={option}
           className="h-[40px] transition-all duration-150 ease-in-out w-full flex items-center px-6 border-b cursor-pointer tracking-widest group rounded-md text-xl text-[#F2F3F4] hover:text-[#660000] hover:bg-[#1e1515]"
         >
           <p>{option}</p>
-        </div>
+        </button>
       ))}
     </div>
   )
