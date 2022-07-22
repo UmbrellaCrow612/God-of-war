@@ -5,20 +5,9 @@ interface mobileDrawerProps {}
 
 export const MobileDrawer: React.FC<mobileDrawerProps> = () => {
   const showDrawer = useRecoilValue(mobileDrawerState)
-  const options = [
-    'Buy or pre-order',
-    'Game Info',
-    'Stories',
-    'Media',
-    'Fan Art',
-    'Blog',
-    'New game +',
-    'News',
-    'More',
-  ]
   return (
     <div
-      className={`w-full h-[400px] py-3 flex-col justify-between transition-all ease-in-out duration-150 bg-[#1d1919] ${
+      className={`w-full h-[400px] py-3 flex-col justify-between transition-all ease-in-out duration-150 bg-[#1d1919] xl:hidden ${
         showDrawer ? 'flex opacity-100' : 'hidden opacity-0'
       }`}
     >
@@ -33,3 +22,15 @@ export const MobileDrawer: React.FC<mobileDrawerProps> = () => {
     </div>
   )
 }
+
+export const options = [
+  'Buy or pre-order',
+  'Game Info',
+  'Stories',
+  'Media',
+  'Fan Art',
+  'Blog',
+  'New game +',
+  'News',
+  'More',
+]

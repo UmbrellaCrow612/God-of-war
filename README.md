@@ -53,3 +53,10 @@ npx prisma migrate dev
 - EsLint
 - Recoil
 - Next SEO
+
+
+# Mentions and things to use
+
+use this for design inspiration 
+
+https://godofwar.fandom.com/wiki/God_of_War_(2018)
