@@ -1,3 +1,8 @@
+# About
+
+- Have a god of war themed landing page
+- Blog about god of war
+
 # Steps to follow for prisma adaptor to work
 
 1.) In `.env` paste the `DATABASE_URL=` from `railway` or `PlanetScale`
