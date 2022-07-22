@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-    body{
-        @apply font-[Cinzel]
-    }
+  body {
+    @apply font-[Cinzel];
+  }
 }
+
+.mobileMenuShadow {
+  box-shadow: rgba(36, 106, 142, 0.3) -1px 2px 4px 4px, rgba(49, 124, 165, 0.22) 5px 4px 16px 0px;
+}
+
+/* rgba(36, 106, 142, 0.3) rgba(49, 124, 165, 0.22)*/
